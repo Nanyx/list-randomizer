@@ -12,7 +12,7 @@
     "test": "jest"
   },
   "author": "Nanyx",
-  "license": "ISC",
+  "license": "(MIT OR Apache-2.0)",
   "devDependencies": {
     "jest": "^29.6.1"
   }
