@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "automate randomisation of input lists",
   "main": "index.js",
-  "keywords": ["list", "lists", "random", "randomizer"],
+  "keywords": ["list", "lists", "random", "randomizer", "strings"],
+  "homepage": "https://github.com/Nanyx/list-randomizer",
   "directories": {
     "test": "test"
   },
