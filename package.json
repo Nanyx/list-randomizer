@@ -1,6 +1,6 @@
 {
   "name": "list-randomizer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "automate randomisation of input lists",
   "main": "index.js",
   "keywords": ["list", "lists", "random", "randomizer", "strings"],
