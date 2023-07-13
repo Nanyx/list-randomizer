@@ -65,7 +65,7 @@ The `options` object let you manipulate the output of the result list :
 
 ```js
 const monster = ["orc", "goblin", "dragon"];
-const loot = ["50 gold pieces", 3, "15 gems", "a magic sword"];
+const loot = ["50 gold pieces", "15 gems", "a magic sword", 3];
 
 const options = {
   isRerollSame: true,
@@ -74,5 +74,5 @@ const options = {
 
 let lstRandomizer = new ListRandomizer(options, monster, " slain award you : ", loot);
 let myRandomSelectionArray = lstRandomizer.rnd(); 
-/* output ex: ["dragon", "slain award you", "50 gold pieces and 15 gems and 15 gems"] */
+/* output ex: ["dragon", " slain award you : ", "50 gold pieces and 15 gems and 15 gems"] */
 ```
